@@ -29,7 +29,7 @@ RSpec.describe Book, type: :model do
     end
 
     subject do 
-        described_class.new(published-date: 1999-10-06)
+        described_class.new(published-date: '1999-10-06')
     end
 
     it 'is valid with valid attributes' do
